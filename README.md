@@ -1,59 +1,34 @@
-# BlogPreviewCard
+# Frontend Mentor - Blog preview card solution
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.0.
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Overview
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+### Links
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Solution URL: [https://github.com/nicolas-castro92/blog-preview-card.git](https://github.com/nicolas-castro92/blog-preview-card.git)
+- Live Site URL: [https://blog-preview-card-pi-kohl.vercel.app/card](https://blog-preview-card-pi-kohl.vercel.app/card)
 
-## Code scaffolding
+## My process
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Built with
 
-```bash
-ng generate component component-name
-```
+- Semantic **HTML5** markup  
+- **Tailwind CSS** for styling  
+- **Angular** framework  
+- Mobile-first workflow  
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### What I learned
 
-```bash
-ng generate --help
-```
+In this project, I practiced building a **responsive card layout** using Tailwind CSS.  
+I learned how to control spacing, borders, and typography to match the design closely.  
 
-## Building
+However, I had some difficulty making the **main image fully responsive below 375px** — it didn’t perfectly match the mobile design proportions, even after adjusting `object-cover` and `object-none`.  
+This taught me how important it is to test layouts across **very small screen sizes** and tweak spacing carefully.  
 
-To build the project run:
 
-```bash
-ng build
-```
+## Author
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Frontend Mentor - [https://www.frontendmentor.io/profile/nicolas-castro92]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/nicolas-castro92))  
+- GitHub - [https://github.com/nicolas-castro92](https://github.com/nicolas-castro92)  
